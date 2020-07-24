@@ -21,16 +21,16 @@ for ques in response["results"]:
         while i!=0:
             print("=======================================================")
             ans = input(ques["question"])
-            if(ans=='t' or ans=="True" or ans=="true"):
+            if(ans=='t' or ans=="True" or ans=="true" or ans=="T"):
                 ans="True"
                 #pls remove the tmp line for the error if using MacOS/Windows
-                tmp = sp.call('clear', shell=True)
+                # tmp = sp.call('clear', shell=True)
                 print("\nAnswer Submitted\n")
                 break
-            if(ans=='f' or ans=="False" or ans=="false"):
+            if(ans=='f' or ans=="False" or ans=="false" or ans=="F"):
                 ans="False"
                 #pls remove the tmp line for the error if using MacOS/Windows
-                tmp = sp.call('clear', shell=True)
+                # tmp = sp.call('clear', shell=True)
                 print("\nAnswer Submitted\n")
                 break
             else:
