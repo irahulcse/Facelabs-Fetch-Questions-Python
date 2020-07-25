@@ -1,7 +1,7 @@
 ![Image](images/roversoriginal.jpg)
 # FaceLabs Fetch Question Python :boom:
 FaceLabs Fethc Questions is a Python Base CLI project, in which we Fetch the Online Quiz Question through OpnTDB API and after fetching the question we generally the check the Answer Entered to Right answer. At the end we generate a score how much the students had scored.
-[![Run Direcly In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RhUmG7UjGHRXxGD1BOgog_gUl6XRbCSW?usp=sharing]
+[![Run Direcly In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RhUmG7UjGHRXxGD1BOgog_gUl6XRbCSW?usp=sharing)]
 
 ## Working of FaceLabs Python Application:
 1. Clone the Repo
