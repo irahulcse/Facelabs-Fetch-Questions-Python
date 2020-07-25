@@ -5,7 +5,7 @@ FaceLabs Fethc Questions is a Python Base CLI project, in which we Fetch the Onl
 
 ## Working of FaceLabs Python Application:
 1. Clone the Repo
-  * `git fetch upstream`
+  * `git clone https://github.com/irahulcse/Facelabs-Fetch-Questions-Python`
 
 2. Move to the Downloaded Directory of the given project.
 
