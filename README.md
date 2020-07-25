@@ -1,5 +1,5 @@
 ![Image](images/roversoriginal.jpg)
-# FaceLabs Fetch Question Python :boom:
+# FaceLabs Fetch Question Python Application :boom:
 FaceLabs Fethc Questions is a Python Base CLI project, in which we Fetch the Online Quiz Question through OpnTDB API and after fetching the question we generally the check the Answer Entered to Right answer. At the end we generate a score how much the students had scored.
 
 [![Run Direcly In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RhUmG7UjGHRXxGD1BOgog_gUl6XRbCSW?usp=sharing)
@@ -54,7 +54,7 @@ You can follow the below workflow, if you are new to Git.
 1. Fork the main A-Complete-Guide-To-Flutter
 2. Clone this repo on your machine
 3. Add the main repo as "upstream"
-  * `git remote add upstream https://github.com/irahulcse/A-Complete-Guide-To-Flutter`
+  * `git remote add upstream https://github.com/irahulcse/Facelabs-Fetch-Questions-Python`
 
 #### Starting a new issue
 1. Get the latest version of the project
