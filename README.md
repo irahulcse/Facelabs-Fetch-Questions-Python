@@ -1,25 +1,28 @@
-![Image](images/rovers.jpg)
-# Flutter Pokemon Application :boom:
+![Image](images/roversoriginal.jpg)
+# FaceLabs Fetch Question Python :boom:
+FaceLabs Fethc Questions is a Python Base CLI project, in which we Fetch the Online Quiz Question through OpnTDB API and after fetching the question we generally the check the Answer Entered to Right answer. At the end we generate a score how much the students had scored.
+[![Run Direcly In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RhUmG7UjGHRXxGD1BOgog_gUl6XRbCSW?usp=sharing]
 
-<!-- ![Flutter_Pokemon_App](https://github.com/irahulcse/Flutter_Pokemon_App/.github/workflows/Flutter%20Web/badge.svg?branch=dev) -->
+## Working of FaceLabs Python Application:
+1. Clone the Repo
+  * `git fetch upstream`
 
-Flutter Pokemon Application is a very intutive and nice UI and JSON based Application in this we are basically fetching ther result from the JSON File to create UI. 
+2. Move to the Downloaded Directory of the given project.
+
+3. Directly Run the Application in the terminal:
+  * `python3 app.py`
+
+## Prerequisite of running this application is that:
+1. Python3 needed to be installed, this project is crated using Python3(beacuse Python3 is more better than Python either in terms of dependecy or future upgradation).
+2. Having an active **Internet Connection** is necessary so that you can fetch the answer from the online repo.
 
 ## Unique Features of the Application:
-* [✅]Widgets created for the UI are like as Card, Hero, Animation, Positioned.
-* [✅] Parsed the data using **JSON Decode** which helped to bring the data from the API in the form of List.
-* [✅]Map is an data structure which is used for passing it through the function.
-* [✅] Live Working Project
-* [✅] Widgets used like ListTile, ListView Builder, Center, Text and Circle Avatar Widgets
-<!-- * [❌] Everything is static right now, no API integration done on it. -->
-  
-### Screenshots and Working GIFS:
+* [✅] Random Question Generating based Pyhon Application
+* [✅] Easy to Analyse Score and Reward the Student
 
-<img src="images/rovers.gif" height="300em"  width="250em"/> <img src="images/1.jpg" height="300em" width="250em"/> <img src="images/2.jpg" height="300em" width="250em"/>
+### Screenshots and Working Protoype:
 
-
- Sorry for the quality of the GIF :pray:
-
+<img src="images/rovers.gif" height="300em"  width="250em"/> <img src="images/1.png" height="300em" width="250em"/> <img src="images/2.png" height="300em" width="250em"/> <img src="images/3.png" height="300em" width="250em"/> <img src="images/4.png" height="300em" width="250em"/> 
 
 ### Show some love :heart: and star the repo to support the project
 
@@ -27,9 +30,6 @@ If you had like the project pls hit the star :+1: icon.
 
 The Parent Repository of this project can be found on this [link](https://github.com/irahulcse/A-Complete-Guide-To-Flutter).
 
-# Live Working Project:
-
-[Demo Application](https://irahulcse.github.io/Telegram_Ui_Flutter/)
 
 ### Created with :heart:
 A a Pre-Final Year Computer Science Student, an experienced Software Developer with a demonstrated history of working in the information technology and services industry. Seasoned Competitive Coder. Skilled in C++, Python, Data Analysis, Java, Dart and Julia. Strong information technology professional with a Bachelor of Engineering - BE focused in Computer Science from Chandigarh University. 

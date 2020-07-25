@@ -34,23 +34,22 @@ for ques in response["results"]:
             ans = input(ques["question"])
             if(ans=='t' or ans=="True" or ans=="true" or ans=="T"):
                 ans="True"
-                # tmp = sp.call('clear', shell=True)
                 print("\nAnswer Submitted\n")
                 break
             if(ans=='f' or ans=="False" or ans=="false" or ans=="F"):
                 ans="False"
-                # tmp = sp.call('clear', shell=True)
                 print("\nAnswer Submitted\n")
                 break
             else:
-                print("\nWrong Input: Try Again\nPlease types only among them t/f/True/False/true/false\n")
+                print("\nWrong Input: Sorry! Please Try Again\nPlease types only among them t/f/True/False/true/false\n")
 
-        # iterate till all the answers are not given
+        # iterate till all the answer of the questions are not given
         i-=1
     else:
         print("Answer Given!")
 
-    
-    if ans == ques["correct_answer"]: score+=1
+    #compare the right ans with the input string(ans) and increment the score if it is right
+    if ans == ques["correct_answer"]: 
+        score+=1
 
 print("\n\nCongratulations Your score Is- {}".format(score))
