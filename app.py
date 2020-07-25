@@ -1,8 +1,8 @@
 import requests
 import subprocess as sp
 import sys
-# https://notebooks.gesis.org/binder/jupyter/user/ipython-ipython-in-depth-zykvi430/notebooks/binder/Facelabs%20Python.ipynb#
-# https://stackoverflow.com/questions/18937058/clear-screen-in-shell/47296211
+# to get the connect the api using Response and Request
+# and using the JSON for better undertandablitiy and iteration
 response = requests.get('https://opentdb.com/api.php?amount=5&category=15&difficulty=easy&type=boolean').json()
 
 #saving the score
